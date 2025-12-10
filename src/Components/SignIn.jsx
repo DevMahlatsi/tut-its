@@ -2,9 +2,9 @@ import tutLoginLogo from '../assets/images/tutLoginLogo.png'
 import {useState, useRef} from "react";
 
 export function SignIn(){
-    function MyComponent(){
-        const myRef = useRef();
-    }
+    const studNumberRef = useRef(null);
+    const studPasswordRef = useRef(null);
+
     const typeOfLearners = [
         { id: 1, type: "Student", label: "Student Number" },
         { id: 2, type: "Personnel", label: "Personnel Number" },
@@ -28,7 +28,8 @@ export function SignIn(){
     
     const handleUserType = (id) =>{
         const temp = typeOfLearners.find((user) => user.id === id).label;
-
+        studNumberRef.current.value = "";
+        studPasswordRef.current.value = "";
         setUserType(temp);
         
 
@@ -88,6 +89,7 @@ export function SignIn(){
                 <input type="text"
                        className={'aa'}
                        name="userNumber"
+                       ref={studNumberRef}
                        id="studentNumber"
                        placeholder={userType}
                        maxLength={10}/>
@@ -96,6 +98,7 @@ export function SignIn(){
                 {/*</label>*/}
                 <input type="password"
                        className={'aa'}
+                       ref={studPasswordRef}
                        name="userPassword"
                        maxLength = {5}
                        placeholder={"Pin"}
