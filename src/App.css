@@ -1,4 +1,9 @@
-body{
+/* @import "tailwindcss";
+ */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ body{
 
 
     /*padding-top: 6rem;*/
