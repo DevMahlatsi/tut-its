@@ -1,0 +1,158 @@
+body{
+
+
+    /*padding-top: 6rem;*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.sign-in-section{
+        display: block;
+        padding: 100px 10px 90px 10px;
+        width: 20rem;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*border: solid rgb(0, 137, 253) 0.1rem;*/
+        justify-content: center;
+        text-align: center;
+        border-radius: 0.8rem;
+
+        position: relative;
+}
+
+.img-logo{
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*top: 0px;*/
+    width: 20rem;
+    /*border: solid black 1px;*/
+    padding-bottom: 5rem;
+    overflow-x: auto;
+
+}
+.user-details{
+    display: flex;
+    flex-direction: column;
+    /*border: solid black 1px;*/
+    text-align: left;
+    font-size: 1.3rem;
+
+}
+.aa{
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    outline: none;
+    border-color: #2195f1;
+    margin-top: 1rem;
+}
+.aa::placeholder{
+
+}
+.aa::placeholder:active{
+    color: black;
+}
+/*aa.active{*/
+/*    background-color: pink;*/
+/*}*/
+.aa:focus{
+
+    /*!*background-color: red;*!*/
+    /*border-color: red;*/
+
+}
+.ctrl{
+    display: flex;
+    justify-content: center;
+
+}
+.radio{
+    display: inline-flex;
+    overflow: hidden;
+    border: none;
+    /*justify-content: center;*/
+    align-content: center;
+    margin: 0;
+    width: 10rem;
+    /*padding: 1rem;*/
+
+    /*border-radius: 15px;*/
+    /*box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);*/
+
+    /*position: absolute;*/
+    /*z-index: 0;*/
+
+    /*left: 0;*/
+    /*right: 0;*/
+
+    /*padding: 0;*/
+
+}
+.radio__input{
+    /*padding: 9px 9px;*/
+    display: none;
+
+}
+.radio__label:hover{
+    background-color: #006cc5;
+    transition-duration: .3s;
+}
+.radio__label{
+    padding: 1rem 1.05rem;
+    font-size: 15px;
+    font-family: sans-serif;
+    color: white;
+    background-color:  #2195f1;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    /*border: solid black 1px;*/
+}
+.radio__label:not(:last-of-type){
+    border-right: 1px solid #88bef4;
+}
+.radio__input:checked + .radio__label{
+    /*background: #88bef4 ;*/
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+.sign-footer{
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.btn-login{
+    background-color: #2195f1;
+    color: white;
+    font-size: 1.3rem;
+    margin-bottom: 1.3rem;
+    padding: 0.5rem;
+    border-radius: 0.4rem;
+    border: none;
+
+}
+.btn-login:hover{
+    background-color: #006cc5;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.help-options{
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    text-align: center;
+    background-color: #2195f1;
+    color: white;
+    border-radius: 0.4rem;
+}
+.help-options:hover{
+    background-color: #006cc5;
+    cursor: pointer;
+}
