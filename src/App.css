@@ -157,7 +157,7 @@
     background-color: #006cc5;
     cursor: pointer;
 }
-.card-container{
+.student-card-container{
     color: #1B2A41;
     width: 290px;
     max-width: 260px;
@@ -199,4 +199,23 @@
 }
 .status-temp{
     color: green;
+}
+.personal-details-card{
+    color: #1B2A41;
+    border-radius: 5%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    display: flex;
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.icon{
+    height: 30px;
+    
+}
+.test2{
+    margin: 2px;
 }
