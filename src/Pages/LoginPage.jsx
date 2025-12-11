@@ -4,8 +4,6 @@ import {SignIn} from "../Components/SignIn.jsx";
 export function LoginPage() {
     return(
         <>
-            {/*<LoginHeader/>*/}
-            {/*<div>jkkkkkkkkkkk</div>*/}
             <SignIn/>
         </>
 
