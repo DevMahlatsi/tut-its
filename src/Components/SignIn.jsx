@@ -1,7 +1,9 @@
+import { useNavigate} from 'react-router-dom';
 import tutLoginLogo from '../assets/images/tutLoginLogo.png'
 import {useState, useRef} from "react";
 
 export function SignIn(){
+    const navigate = useNavigate();
     const studNumberRef = useRef(null);
     const studPasswordRef = useRef(null);
 
@@ -38,13 +40,17 @@ export function SignIn(){
     const handleSubmit = (event) => {
         //ought to get rid of default behavior first chief
         event.preventDefault();
+        navigate('/home');
     }
 
 
 
     return (
     <section className={'sign-in-section'}>
-        <title>Jeremia</title>
+        <head>
+            <title>Self Help iEnabler</title>
+        </head>
+        
     {/*    probably put the logo here*/}
 
         <img src={tutLoginLogo}

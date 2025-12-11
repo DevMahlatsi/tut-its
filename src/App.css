@@ -1,8 +1,3 @@
-/* @import "tailwindcss";
- */
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
  body{
 
 
@@ -45,6 +40,7 @@
 .user-details{
     display: flex;
     flex-direction: column;
+    
     /*border: solid black 1px;*/
     text-align: left;
     font-size: 1.3rem;
@@ -56,9 +52,7 @@
     outline: none;
     border-color: #2195f1;
     margin-top: 1rem;
-}
-.aa::placeholder{
-
+    border-radius: 10px;
 }
 .aa::placeholder:active{
     color: black;
@@ -67,7 +61,7 @@
 /*    background-color: pink;*/
 /*}*/
 .aa:focus{
-
+    border-color: #2195f1;
     /*!*background-color: red;*!*/
     /*border-color: red;*/
 
@@ -162,4 +156,47 @@
 .help-options:hover{
     background-color: #006cc5;
     cursor: pointer;
+}
+.card-container{
+    color: #1B2A41;
+    width: 290px;
+    max-width: 260px;
+    display: flex;
+    flex-direction: column;
+    height: 180px;
+    /* border:solid black 1px; */
+    border-radius: 5%;
+    padding: 20px;
+    gap: 8px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+}
+.user-profile{
+    /* color: #1B2A41; */
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+.profile-pic{
+    height: 100px;
+    border-radius: 90%;
+}
+.user-details{
+    height: fit-content;
+    
+
+}
+.user-details-a{
+    margin: 3px;
+}
+.testing{
+    margin: auto;
+}
+.label-span {
+    margin-right: 20px; /* Adjust '20px' for your desired gap size */
+}
+.status-temp{
+    color: green;
 }
