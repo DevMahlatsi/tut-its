@@ -1,3 +1,4 @@
+import ContactDetails from "../Components/ContactDetails";
 import PersonalDetails from "../Components/PersonalDetails";
 import StudentCard from "../Components/StudentCard";
 
@@ -8,6 +9,7 @@ export default function(){
       <div className="home">
         <StudentCard/>
         <PersonalDetails/>
+        <ContactDetails/>
       </div>
       
 
