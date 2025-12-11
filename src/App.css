@@ -9,7 +9,7 @@ body{
     display: flex;
     justify-content: center;
     align-content: center;
-
+    
 }
 
 .sign-in-section{
@@ -100,8 +100,9 @@ body{
 
 }
 .radio__label:hover{
-    background-color: #006cc5;
-    transition-duration: .3s;
+    /* background-color: #001322; */
+    text-decoration: underline;
+    transition-duration: 0.5s;
 }
 .radio__label{
     padding: 1rem 1.05rem;
@@ -119,7 +120,8 @@ body{
 .radio__input:checked + .radio__label{
     /*background: #88bef4 ;*/
     font-weight: bold;
-    text-decoration: underline;
+    /* text-decoration: underline; */
+    background-color: #006cc5;
 
 }
 .sign-footer{
