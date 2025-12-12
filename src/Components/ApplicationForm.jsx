@@ -12,12 +12,12 @@ export default function(){
         </div>
         <div className="personal-detais-card-extenstion card-extension">
           <ul className="user-details-b">
-            <li><span>Year:</span><span>2026</span></li>
-            <li><span>Qualification:</span><span>DPRS20: Dip(Computer Science)</span></li>
-            <li><span>Faculty:</span> <span>INFORMATION AND COMMUNICATION</span></li>
-            <li><span>Status:</span> <span>L: A ACCEPTED SENIOR STUDENT</span></li>
-            <li><span>Academic Choice:</span> <span>1</span></li>
-            <li><span>Application Letter:</span> <span>....</span></li>
+            <li><p className="user-details-a"><span className="label-span2">Year:</span><span>2026</span></p></li>
+            <li><p className="user-details-a"><span className="label-span2">Qualification:</span><span>DPRS20: Dip(Computer Science)</span></p></li>
+            <li> <p className="user-details-a"><span className="label-span2">Faculty:</span> <span>INFORMATION AND COMMUNICATION</span></p></li>
+            <li><p className="user-details-a"><span className="label-span2">Status:</span> <span>L: A ACCEPTED SENIOR STUDENT</span></p></li>
+            <li><p className="user-details-a"><span className="label-span2">Academic Choice:</span> <span>1</span></p></li>
+            <li> <p className="user-details-a"><span className="label-span2">Application Letter:</span> <span>....</span></p></li>
           </ul>
         </div>
         
