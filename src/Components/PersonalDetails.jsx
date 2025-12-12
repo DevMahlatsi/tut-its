@@ -11,8 +11,15 @@ export default function(){
         </div>
       </div>
       <div className="personal-detais-card-extenstion card-extension">
-        
-        
+        <ul className="user-details-b">
+            
+            <li><p className="user-details-a"><span className="label-span2">Gender:</span><span >Male</span></p></li>
+            <li><p><span>Birthdate:</span>3-July-....<span></span></p></li>
+            <li><p><span>Id No:</span> <span>9876543210</span></p></li>
+            <li><p><span>Maritial Status:</span> <span>Single</span></p></li>
+            <li><p><span>Citizenship:</span> <span>Konohagakure</span></p></li>
+          </ul>
+
       </div>
     </div>
     
