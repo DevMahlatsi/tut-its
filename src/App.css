@@ -225,8 +225,16 @@
 .test2{
     margin: 2px;
 }
+.home-base{
+	display: flex;
+	justify-content: space-around;
+	margin: 20px;
+}
 .home2{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
     color: #1b2a41;
+	gap: 20px;
 
 }
 .parent-basic-card{
@@ -235,17 +243,14 @@
     border-radius: 8px;
     vertical-align: top;
     margin: 15px;
-	width: 350px;
+	min-width: 340px;
 	padding: 5px;
-	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.99px 2.9px;
 }
 .card-extension{
-    /* background-color: rgb(20, 201, 201); */
-	/* height: 150px; */
 	transition-duration: 5s;
 	position: static;
 	overflow: hidden;
-	/* visibility: hidden; */
 }
 .user-details-b{
 	font-size: 14px;
