@@ -1,7 +1,7 @@
 export default function(){
   return(
     <>
-    <div className="student-card-container  basic-card">
+    <div className="student-card-container">
       <div className="user-profile">
         <div className="profile-pic-container"> 
           <img className='profile-pic' src="./src/assets/images/neji-picture.jpg" alt="" />

@@ -160,16 +160,14 @@
 .student-card-container{
     color: #1B2A41;
     width: 290px;
-    /* max-width: 260px; */
     display: flex;
     flex-direction: column;
     height: 180px;
-    /* border:solid black 1px; */
-    border-radius: 5%;
-    padding: 20px;
+     margin: 5px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;border-radius: 5%;
     gap: 8px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-
+    padding: 20px;
+    
 }
 .user-profile{
     /* color: #1B2A41; */
@@ -206,10 +204,13 @@
     display: flex;
     gap: 8px;
     padding: 20px;
-}
-.personal-details-card{
+    /* display: block; */
+    border-radius: 8px;
+	
+
     
 }
+
 .icon-container{
     display: flex;
     align-items: center;
@@ -218,11 +219,46 @@
 }
 .icon{
     height: 30px;
+   
     
 }
 .test2{
     margin: 2px;
 }
 .home{
-    color: #1B2A41
+    color: #1b2a41;
+	column-count: 2;           /* 4 columns by default */
+    column-gap: 20px;          /* Space between columns */
+    max-width: 1400px;         /* Optional: max width */
+    margin: 0 auto;  
+	gap: 20px;          /* Center it */
+}
+.parent-basic-card{
+	display: flex;
+	flex-direction: column;     /* CRITICAL - makes columns work */
+    width: 100%;               /* Take full column width */
+    background: white;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;       /* Space between cards vertically */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    break-inside: avoid;
+	border: solid black 1px;
+    -webkit-column-break-inside: avoid; /* Safari */
+    page-break-inside: avoid;  /* Print */
+	break-inside: avoid; /* Already have this? */
+}
+
+.personal-details-card{
+    /* background-color: green; */
+	display: flex;
+	flex-direction: column;
+	
+}
+.card-extension{
+    background-color: rgb(240, 201, 201);
+	/* height: 0; */
+	transition-duration: 5s;
+	position: static;
+	overflow: hidden;
 }
