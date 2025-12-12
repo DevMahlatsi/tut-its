@@ -11,7 +11,8 @@ export default function(){
         </div>
       </div>
       <div className="personal-detais-card-extenstion card-extension">
-        Jeremia <br />Jeremia <br />Jeremia <br />Jeremia <br />Jeremia <br />
+        
+        
       </div>
     </div>
     

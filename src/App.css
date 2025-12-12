@@ -225,40 +225,40 @@
 .test2{
     margin: 2px;
 }
-.home{
+.home2{
     color: #1b2a41;
-	column-count: 2;           /* 4 columns by default */
-    column-gap: 20px;          /* Space between columns */
-    max-width: 1400px;         /* Optional: max width */
-    margin: 0 auto;  
-	gap: 20px;          /* Center it */
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+	padding: 10px;
+	/* background: rgba(255, 0, 0, 0.1); Light red to see container */
+	
+	justify-content: space-around;
 }
 .parent-basic-card{
-	display: flex;
-	flex-direction: column;     /* CRITICAL - makes columns work */
-    width: 100%;               /* Take full column width */
-    background: white;
+	/* display: inline-block;  */
+    width: 100%;               
+    /* background: rgb(241, 141, 141); */
     border-radius: 12px;
-    padding: 25px;
-    margin-bottom: 20px;       /* Space between cards vertically */
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
-    break-inside: avoid;
+    padding: 10px;
+    margin-bottom: 30px;
 	border: solid black 1px;
-    -webkit-column-break-inside: avoid; /* Safari */
-    page-break-inside: avoid;  /* Print */
-	break-inside: avoid; /* Already have this? */
+	flex-basis: 350px;
+	flex-grow: 2;
+	flex-shrink: 2;
+	/* min-width: 373px; */
+	min-width: 350px;
+	max-width: 370px;
 }
-
-.personal-details-card{
-    /* background-color: green; */
-	display: flex;
-	flex-direction: column;
-	
+.personal-details-card-extension{
+	visibility: hidden;
 }
 .card-extension{
-    background-color: rgb(240, 201, 201);
-	/* height: 0; */
+    background-color: rgb(20, 201, 201);
+	/* height: ; */
 	transition-duration: 5s;
 	position: static;
 	overflow: hidden;
+	/* visibility: hidden; */
 }
