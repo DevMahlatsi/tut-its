@@ -11,7 +11,68 @@ export default function(){
           </div>
         </div>
         <div className="personal-detais-card-extenstion card-extension">
-          
+          <ul className="user-details-b">
+            <li>
+              <p className="user-details-a">
+                <span className="label-span2">
+                  Qualification:
+                </span>
+                <span>
+                  DPRS20 Dip(Computer Science)
+                </span>
+              </p>
+            </li>
+            <li>
+              <p className="user-details-a">
+                <span className="label-span2">
+                  Registration Year:
+                </span>
+                <span>
+                  2026
+                </span>
+              </p>
+            </li>
+            <li> 
+              <p className="user-details-a">
+                <span className="label-span2">
+                  Academic Block:
+                </span> 
+                <span>
+                  YEAR (JAN-DEC)
+                </span>
+              </p>
+            </li>
+            <li>
+              <p className="user-details-a">
+                <span className="label-span2">
+                  Offering Type:
+                </span> 
+                <span>
+                  Soshanguve (South) - Full Time
+                </span>
+              </p>
+            </li>
+            <li>
+              <p className="user-details-a">
+                <span className="label-span2">
+                  Academic Choice:
+                </span> 
+                <span>
+                  1
+                </span>
+              </p>
+            </li>
+            <li> 
+              <p className="user-details-a">
+                <span className="label-span2">
+                  Has Bursary:
+                </span> 
+                <span>
+                  Y
+                </span>
+              </p>
+            </li>
+          </ul>
         </div>
         
       </div>
